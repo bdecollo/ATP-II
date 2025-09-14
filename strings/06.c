@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-void remover_espacos(char *str){
-    int i, j;
+void removerEspacos(char *str){
+    int i, j = 0;
     for(i = 0; str[i] != '\0'; i++){
         if(str[i] != ' '){
             str[j] = str[i];
